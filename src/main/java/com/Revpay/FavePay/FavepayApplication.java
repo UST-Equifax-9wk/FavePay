@@ -8,6 +8,7 @@ public class FavepayApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(FavepayApplication.class, args);
+		System.out.println("Hello World");
 	}
 
 }
