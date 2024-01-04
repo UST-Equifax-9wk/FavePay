@@ -2,13 +2,14 @@ package com.Revpay.FavePay;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
-public class FavepayApplication {
+public class FavePayApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FavepayApplication.class, args);
-		System.out.println("Hello World");
+		ApplicationContext iocContainer = SpringApplication.run(FavePayApplication.class, args);
+		
 	}
 
 }
